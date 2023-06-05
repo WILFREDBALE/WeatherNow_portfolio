@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherNow App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+<style>
+    /* Custom CSS Styles */
+    .cover-image {
+      width: 100%;
+      height: 400px;
+      background-image: url('images/Rainyweather.webp');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .header-bar {
+      padding: 20px;
+      background-color: #f8f9fa;
+    }
+
+    .feature-item {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Intro Section -->
+  <section id="intro-section">
+    <div class="cover-image"></div>
+    <div class="header-bar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">WeatherNow App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#feature-section">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-section">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container mt-5">
+      <h1>WeatherNow App</h1>
+      <p>A simple and accurate weather forecasting application.</p>
+      <a href="#" class="btn btn-primary">Go to App</a>
+    </div>
+  </section>
+
+  <!-- Feature Section -->
+  <section id="feature-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="feature-item">
+            <img src="feature1-image.jpg" alt="Feature 1" class="img-fluid">
+            <h3>Real-time Weather Updates</h3>
+            <p>Get instant weather updates with accurate data and forecasts.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-item">
+            <img src="feature2-image.jpg" alt="Feature 2" class="img-fluid">
+            <h3>Interactive Maps</h3>
+            <p>Explore weather patterns with interactive maps and visualizations.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-item">
+            <img src="feature3-image.jpg" alt="Feature 3" class="img-fluid">
+            <h3>Customizable Alerts</h3>
+            <p>Set personalized weather alerts for your preferred locations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+<section id="about-section">
+  <div class="container">
+    <h2>About WeatherNow App</h2>
+    <p>This project was inspired by my passion for weather forecasting and the desire to create a useful and accurate weather application. As someone who has always been fascinated by the weather and its impact on our daily lives, I wanted to develop a solution that provides real-time weather updates and helps users plan their activities accordingly.</p>
+    <p>Throughout the development process, I strived to ensure that the app provides accurate weather data and reliable forecasts to users. The goal was to create a simple yet powerful tool that delivers essential weather information in an intuitive and user-friendly manner.</p>
+    <p>This project is part of my portfolio for Holberton School, where I am honing my skills as a software developer. You can find more information about the project and other portfolio projects on the <a href="https://holbertonschool.com">Holberton School website</a>.</p>
+    <p>If you're interested in exploring the code and contributing to the project, you can find the GitHub repository <a href="https://github.com/WILFREDBALE/WeatherNow_portfolio">here</a>.</p>
+</section>
+
